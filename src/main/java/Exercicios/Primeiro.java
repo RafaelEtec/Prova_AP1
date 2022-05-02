@@ -12,7 +12,7 @@ public class Primeiro {
         Scanner ent = new Scanner(System.in);
         int qtdPequeno, qtdMedio, qtdGrande;
         String strNumNegativo = 
-                "O número não pode ser negativo!"
+                "O número não pode ser negativo! \n"
               + "Insira novamente: ";
         
         System.out.println("Quantos Açaís pequenos?: ");

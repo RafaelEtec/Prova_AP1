@@ -15,7 +15,7 @@ public class Terceiro {
         numero = ent.nextInt();
         while (numero < 0) {
             System.out.println(
-                "O número não pode ser negativo!"
+                "O número não pode ser negativo! \n"
               + "Insira novamente: ");
             numero = ent.nextInt();
         }

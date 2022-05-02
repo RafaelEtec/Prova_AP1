@@ -16,7 +16,7 @@ public class Segundo {
         gramas = ent.nextDouble();
         while (gramas < 0) {
             System.out.println(
-                "O número não pode ser negativo!"
+                "O número não pode ser negativo! \n"
               + "Insira novamente: ");
             gramas = ent.nextDouble();
         }
