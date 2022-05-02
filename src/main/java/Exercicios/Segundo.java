@@ -32,9 +32,9 @@ public class Segundo {
         double precoTotal;
         
         if (gramas >= 1000) {
-            precoTotal = gramas * 3.50;
+            precoTotal = gramas * 0.03;
         } else {
-            precoTotal = gramas * 3.00;
+            precoTotal = gramas * 0.035;
         }
         
         return precoTotal;
